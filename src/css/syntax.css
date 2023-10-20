@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+.lowestDiv {
+    display: flex;
+    background-color: #1d3658;
+    color: #f2faef;
+}
+
+.codeBox {
+    background-color: #2a2a2a;
+    padding: 1em;
+}
