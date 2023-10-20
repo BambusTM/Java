@@ -1,7 +1,3 @@
-/* FONT STYLING */
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
 
 * {
   font-family: 'roboto', sans-serif;
@@ -10,6 +6,27 @@
   box-sizing: border-box;
 }
 
+/* FONT STYLING */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+
+.gSyntax, .gSyntax span {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.gVar {
+  color: #e66f00;
+}
+
+.gName {
+  color: #007194;
+}
+
+.gValue {
+  color: #2b973d;
+}
 .gSyntax, .gSyntax span {
   font-family: 'Source Code Pro', monospace;
 }
