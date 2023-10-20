@@ -27,3 +27,18 @@
 .gValue {
   color: #2b973d;
 }
+.gSyntax, .gSyntax span {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.gVar {
+  color: #e66f00;
+}
+
+.gName {
+  color: #007194;
+}
+
+.gValue {
+  color: #2b973d;
+}
