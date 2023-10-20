@@ -9,11 +9,12 @@
 /* FONT STYLING */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:');
 
 
-.gSyntax, .gSyntax span {
+.gSyntax, .gSyntax p, .gSyntax span {
   font-family: 'Source Code Pro', monospace;
+  font-weight: 750;
 }
 
 .gVar {
@@ -25,20 +26,17 @@
 }
 
 .gValue {
-  color: #2b973d;
-}
-.gSyntax, .gSyntax span {
-  font-family: 'Source Code Pro', monospace;
+  color: #1aa879;
 }
 
-.gVar {
-  color: #e66f00;
+.gComment {
+  color: #0b6f1c;
 }
 
-.gName {
-  color: #007194;
+.gQuotes {
+  color: #96410f;
 }
 
-.gValue {
-  color: #2b973d;
+.gLogic {
+  color: #b7105e;
 }
