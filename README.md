@@ -5,6 +5,7 @@ java oder so
 ## Color Schema
 To see ouer Color Schema [Cklick Here](https://colormagic.app/palette/lw0iAy4DCbZJWbhw1TVs).
 
-## Design orientierung
+[Syntax text](https://colormagic.app/palette/nCi2NZlKBxNccxA72dKs)
 
-https://preview.colorlib.com/#pageone
+## Design orientierung
+[Website](https://preview.colorlib.com/#pageone)
