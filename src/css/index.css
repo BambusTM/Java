@@ -1,26 +1,36 @@
 /*Header Area -- Nav Bar*/
 .header{
     display: flex;
-    border: red 1px solid;
     height: 8em;
     width: 100%;
+    justify-content: space-between;
 }
-#headerIndextitelArea{
-    border: green 1px solid;
+#headerIndexTitelArea{
+    left: 0;
     height: 30%;
-    width: 20%;
+    width: 33%;
     float: left;
     text-align: center;
     align-self: center
 }
-#headerIndextitelArea span{
+#headerIndexTitelArea span{
     color: #e63746;
 }
 .headerNavbar{
     display: flex;
-    border: blue 1px solid;
-    height: 70%;
-    width: 80%;
+    height: 30%;
+    width: 33%;
     float: right;
     align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+#currentIndex{
+    color: #e63746;
+}
+.headerFakeArea{
+    height: 70%;
+    width: 33%;
 }
