@@ -1,12 +1,21 @@
-li {
-    list-style: none;
-}
-
 .lowestDiv {
     display: flex;
+    justify-content: center;
+}
+
+.syntaxTextBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(229, 255, 0);
+    width: 80%;
+    padding: 1em;
+
 }
 
 .codeBox {
     background-color: #2a2a2a;
+    border: 3px solid black;
     padding: 1em;
+    margin: 5em;
+    width: auto;
 }

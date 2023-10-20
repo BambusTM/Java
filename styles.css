@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
   font-family: "roboto", sans-serif;
   padding: 0;
@@ -8,6 +10,10 @@
 body {
   background-color: #447a9c;
   color: #f2faef;
+}
+
+.gSyntax li {
+  list-style: none;
 }
 
 /* FONT STYLING */
