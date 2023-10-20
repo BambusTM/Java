@@ -1,63 +1,70 @@
 /*Header Area -- Nav Bar*/
-.header{
-    display: flex;
-    height: 8em;
-    width: 100%;
-    justify-content: space-between;
+.header {
+  display: flex;
+  height: 8em;
+  width: 100%;
+  justify-content: space-between;
 }
-#headerIndexTitelArea{
-    left: 0;
-    height: 30%;
-    width: 33%;
-    float: left;
-    text-align: center;
-    align-self: center
+#headerIndexTitelArea {
+  left: 0;
+  height: 30%;
+  width: 33%;
+  float: left;
+  text-align: center;
+  align-self: center;
 }
-#headerIndexTitelArea span{
-    color: #e63746;
+#headerIndexTitelArea span {
+  color: #e76f00;
 }
-.headerNavbar{
-    display: flex;
-    height: 30%;
-    width: 33%;
-    float: right;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    
-}
-#currentIndex{
-    color: #e63746;
-}
-.headerFakeArea{
-    height: 70%;
-    width: 33%;
-}
-/*Main Titel Area*/
-.mainTitelArea{
-    margin-top: 15em;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.mainTitelArea h1{
-    font-family: "roboto", sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    color: #1d3658;
-}
-.mainTitelArea span{
-    color: #F79431;
+.headerNavbar {
+  display: flex;
+  height: 30%;
+  width: 33%;
+  float: right;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 
-#mainTitelAreaPNG{
-    margin-top: -10%;
-    margin-left: 12%;
-    position: absolute;
-    height: 12em;
-    width: 10em;
+#currentIndex {
+  color: #e76f00;
 }
-#mainTitelAreaPNG img{
-    height: 100%;
-    width: 100%;
+
+.headerFakeArea {
+  height: 70%;
+  width: 33%;
+}
+
+.headerNavbar a {
+    font-size: 1.25em;
+    font-weight: 550;
+}
+
+/*Main Titel Area*/
+.mainTitelArea {
+  margin-top: 15em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mainTitelArea h1 {
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 5em;
+  color: #1d3658;
+}
+.mainTitelArea span {
+  color: #e76f00;
+}
+
+#mainTitelAreaPNG {
+  margin-top: -10%;
+  margin-left: 12%;
+  position: absolute;
+  height: 12em;
+  width: 10em;
+}
+#mainTitelAreaPNG img {
+  height: 100%;
+  width: 100%;
 }

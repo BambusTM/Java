@@ -4,6 +4,7 @@
   font-family: "roboto", sans-serif;
   padding: 0;
   margin: 0;
+  text-decoration: none;
   box-sizing: border-box;
 }
 
@@ -51,7 +52,7 @@ body {
 .gLogic {
   color: #b7105e;
 }
-a{
-  text-decoration: none;
+
+a:visited {
   color: #f2faef;
 }
