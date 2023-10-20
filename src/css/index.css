@@ -34,3 +34,30 @@
     height: 70%;
     width: 33%;
 }
+/*Main Titel Area*/
+.mainTitelArea{
+    margin-top: 15em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mainTitelArea h1{
+    font-family: "roboto", sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    color: #1d3658;
+}
+.mainTitelArea span{
+    color: #F79431;
+}
+
+#mainTitelAreaPNG{
+    margin-top: -10%;
+    margin-left: 12%;
+    position: absolute;
+    height: 12em;
+    width: 10em;
+}
+#mainTitelAreaPNG img{
+    height: 100%;
+    width: 100%;
+}
