@@ -1,3 +1,5 @@
+/* FONT STYLING */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
 
@@ -8,18 +10,18 @@
   box-sizing: border-box;
 }
 
-.syntax, .syntax span {
+.gSyntax, .gSyntax span {
   font-family: 'Source Code Pro', monospace;
 }
 
-.var {
+.gVar {
   color: #e66f00;
 }
 
-.name {
+.gName {
   color: #007194;
 }
 
-.value {
+.gValue {
   color: #2b973d;
 }
